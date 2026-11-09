@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# IDE
+.idea/
+.vscode/
+# networks saved from the app session (re-created on demand)
+models/*_app.pkl
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk

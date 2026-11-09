@@ -1,0 +1,37 @@
+% ieeelike.sty -- minimal look-alike of the IEEE conference layout (IEEEtran, [conference])
+% Used ONLY when IEEEtran.cls is not installed. On Overleaf / a full TeX Live, main.tex loads the
+% real IEEEtran class automatically and this file is ignored.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{ieeelike}[2026/11/09 IEEE conference look-alike]
+\RequirePackage[letterpaper,top=0.75in,bottom=1in,left=0.625in,right=0.625in,columnsep=0.25in]{geometry}
+\RequirePackage{mathptmx}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{titlesec}
+\RequirePackage[font=footnotesize,labelsep=period,justification=justified,singlelinecheck=true]{caption}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0pt}
+% sections: I. INTRODUCTION (centred small caps), A. Subsection (italic)
+\renewcommand\thesection{\Roman{section}}
+\renewcommand\thesubsection{\Alph{subsection}}
+\titleformat{\section}{\centering\normalsize\scshape}{\thesection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{1.2ex plus .5ex}{0.8ex}
+\titleformat{\subsection}{\normalsize\itshape}{\thesubsection.}{0.5em}{}
+\titlespacing*{\subsection}{0pt}{1ex plus .4ex}{0.4ex}
+% figure / table captions: "Fig. 1." and "TABLE I"
+\renewcommand\figurename{Fig.}
+\renewcommand\thetable{\Roman{table}}
+\DeclareCaptionLabelFormat{ieeetab}{\MakeUppercase{#1}~#2}
+\captionsetup[table]{labelformat=ieeetab,labelsep=newline,justification=centering,font={footnotesize,sc}}
+% title block
+\def\IEEEauthorblockN#1{{\large #1}\\[2pt]}
+\def\IEEEauthorblockA#1{{\small\itshape\begin{tabular}[t]{@{}c@{}}#1\end{tabular}}}
+\def\and{\end{tabular}\hskip 2.5em\begin{tabular}[t]{c}}
+\renewcommand\maketitle{\twocolumn[{\centering
+  {\fontsize{24}{28}\selectfont\@title\par}\vskip 1.2em
+  \begin{tabular}[t]{c}\@author\end{tabular}\par\vskip 1.6em}]}
+% abstract and keywords
+\renewenvironment{abstract}{\small\bfseries\noindent\textit{Abstract}---}{\par\vskip 0.4em}
+\newenvironment{IEEEkeywords}{\small\bfseries\noindent\textit{Index Terms}---}{\par\vskip 0.6em}
+% drop-cap style first word
+\def\IEEEPARstart#1#2{\noindent{\large #1}{\scshape #2}}
+\endinput

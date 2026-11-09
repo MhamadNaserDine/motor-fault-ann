@@ -1,0 +1,2153 @@
+{
+ "robustness": {
+  "n_motors": 500,
+  "noise": [
+   {
+    "model": "Perceptron",
+    "noise": 0.0025,
+    "accuracy": 0.89
+   },
+   {
+    "model": "Perceptron",
+    "noise": 0.005,
+    "accuracy": 0.91
+   },
+   {
+    "model": "Perceptron",
+    "noise": 0.01,
+    "accuracy": 0.934
+   },
+   {
+    "model": "Perceptron",
+    "noise": 0.02,
+    "accuracy": 0.904
+   },
+   {
+    "model": "Perceptron",
+    "noise": 0.03,
+    "accuracy": 0.778
+   },
+   {
+    "model": "Perceptron",
+    "noise": 0.05,
+    "accuracy": 0.49
+   },
+   {
+    "model": "ADALINE",
+    "noise": 0.0025,
+    "accuracy": 0.888
+   },
+   {
+    "model": "ADALINE",
+    "noise": 0.005,
+    "accuracy": 0.924
+   },
+   {
+    "model": "ADALINE",
+    "noise": 0.01,
+    "accuracy": 0.924
+   },
+   {
+    "model": "ADALINE",
+    "noise": 0.02,
+    "accuracy": 0.872
+   },
+   {
+    "model": "ADALINE",
+    "noise": 0.03,
+    "accuracy": 0.808
+   },
+   {
+    "model": "ADALINE",
+    "noise": 0.05,
+    "accuracy": 0.652
+   },
+   {
+    "model": "MLP-BP",
+    "noise": 0.0025,
+    "accuracy": 0.942
+   },
+   {
+    "model": "MLP-BP",
+    "noise": 0.005,
+    "accuracy": 0.948
+   },
+   {
+    "model": "MLP-BP",
+    "noise": 0.01,
+    "accuracy": 0.954
+   },
+   {
+    "model": "MLP-BP",
+    "noise": 0.02,
+    "accuracy": 0.902
+   },
+   {
+    "model": "MLP-BP",
+    "noise": 0.03,
+    "accuracy": 0.758
+   },
+   {
+    "model": "MLP-BP",
+    "noise": 0.05,
+    "accuracy": 0.314
+   },
+   {
+    "model": "MLP-momentum",
+    "noise": 0.0025,
+    "accuracy": 0.938
+   },
+   {
+    "model": "MLP-momentum",
+    "noise": 0.005,
+    "accuracy": 0.944
+   },
+   {
+    "model": "MLP-momentum",
+    "noise": 0.01,
+    "accuracy": 0.948
+   },
+   {
+    "model": "MLP-momentum",
+    "noise": 0.02,
+    "accuracy": 0.904
+   },
+   {
+    "model": "MLP-momentum",
+    "noise": 0.03,
+    "accuracy": 0.754
+   },
+   {
+    "model": "MLP-momentum",
+    "noise": 0.05,
+    "accuracy": 0.36
+   },
+   {
+    "model": "MLP-adaptive",
+    "noise": 0.0025,
+    "accuracy": 0.942
+   },
+   {
+    "model": "MLP-adaptive",
+    "noise": 0.005,
+    "accuracy": 0.94
+   },
+   {
+    "model": "MLP-adaptive",
+    "noise": 0.01,
+    "accuracy": 0.948
+   },
+   {
+    "model": "MLP-adaptive",
+    "noise": 0.02,
+    "accuracy": 0.894
+   },
+   {
+    "model": "MLP-adaptive",
+    "noise": 0.03,
+    "accuracy": 0.762
+   },
+   {
+    "model": "MLP-adaptive",
+    "noise": 0.05,
+    "accuracy": 0.368
+   },
+   {
+    "model": "MLP-LM",
+    "noise": 0.0025,
+    "accuracy": 0.938
+   },
+   {
+    "model": "MLP-LM",
+    "noise": 0.005,
+    "accuracy": 0.95
+   },
+   {
+    "model": "MLP-LM",
+    "noise": 0.01,
+    "accuracy": 0.944
+   },
+   {
+    "model": "MLP-LM",
+    "noise": 0.02,
+    "accuracy": 0.89
+   },
+   {
+    "model": "MLP-LM",
+    "noise": 0.03,
+    "accuracy": 0.77
+   },
+   {
+    "model": "MLP-LM",
+    "noise": 0.05,
+    "accuracy": 0.402
+   },
+   {
+    "model": "RBF",
+    "noise": 0.0025,
+    "accuracy": 0.584
+   },
+   {
+    "model": "RBF",
+    "noise": 0.005,
+    "accuracy": 0.746
+   },
+   {
+    "model": "RBF",
+    "noise": 0.01,
+    "accuracy": 0.796
+   },
+   {
+    "model": "RBF",
+    "noise": 0.02,
+    "accuracy": 0.626
+   },
+   {
+    "model": "RBF",
+    "noise": 0.03,
+    "accuracy": 0.352
+   },
+   {
+    "model": "RBF",
+    "noise": 0.05,
+    "accuracy": 0.2
+   }
+  ],
+  "severity": [
+   {
+    "model": "Perceptron",
+    "severity": 0,
+    "accuracy": 0.9
+   },
+   {
+    "model": "Perceptron",
+    "severity": 1,
+    "accuracy": 0.8308823529411765
+   },
+   {
+    "model": "Perceptron",
+    "severity": 2,
+    "accuracy": 1.0
+   },
+   {
+    "model": "Perceptron",
+    "severity": 3,
+    "accuracy": 1.0
+   },
+   {
+    "model": "ADALINE",
+    "severity": 0,
+    "accuracy": 0.89
+   },
+   {
+    "model": "ADALINE",
+    "severity": 1,
+    "accuracy": 0.8014705882352942
+   },
+   {
+    "model": "ADALINE",
+    "severity": 2,
+    "accuracy": 1.0
+   },
+   {
+    "model": "ADALINE",
+    "severity": 3,
+    "accuracy": 1.0
+   },
+   {
+    "model": "MLP-BP",
+    "severity": 0,
+    "accuracy": 0.92
+   },
+   {
+    "model": "MLP-BP",
+    "severity": 1,
+    "accuracy": 0.8897058823529411
+   },
+   {
+    "model": "MLP-BP",
+    "severity": 2,
+    "accuracy": 1.0
+   },
+   {
+    "model": "MLP-BP",
+    "severity": 3,
+    "accuracy": 1.0
+   },
+   {
+    "model": "MLP-momentum",
+    "severity": 0,
+    "accuracy": 0.92
+   },
+   {
+    "model": "MLP-momentum",
+    "severity": 1,
+    "accuracy": 0.8676470588235294
+   },
+   {
+    "model": "MLP-momentum",
+    "severity": 2,
+    "accuracy": 1.0
+   },
+   {
+    "model": "MLP-momentum",
+    "severity": 3,
+    "accuracy": 1.0
+   },
+   {
+    "model": "MLP-adaptive",
+    "severity": 0,
+    "accuracy": 0.92
+   },
+   {
+    "model": "MLP-adaptive",
+    "severity": 1,
+    "accuracy": 0.8676470588235294
+   },
+   {
+    "model": "MLP-adaptive",
+    "severity": 2,
+    "accuracy": 1.0
+   },
+   {
+    "model": "MLP-adaptive",
+    "severity": 3,
+    "accuracy": 1.0
+   },
+   {
+    "model": "MLP-LM",
+    "severity": 0,
+    "accuracy": 0.9
+   },
+   {
+    "model": "MLP-LM",
+    "severity": 1,
+    "accuracy": 0.875
+   },
+   {
+    "model": "MLP-LM",
+    "severity": 2,
+    "accuracy": 0.9924242424242424
+   },
+   {
+    "model": "MLP-LM",
+    "severity": 3,
+    "accuracy": 1.0
+   },
+   {
+    "model": "RBF",
+    "severity": 0,
+    "accuracy": 0.82
+   },
+   {
+    "model": "RBF",
+    "severity": 1,
+    "accuracy": 0.6176470588235294
+   },
+   {
+    "model": "RBF",
+    "severity": 2,
+    "accuracy": 0.9166666666666666
+   },
+   {
+    "model": "RBF",
+    "severity": 3,
+    "accuracy": 0.8409090909090909
+   }
+  ],
+  "load": [
+   {
+    "model": "Perceptron",
+    "load": "30\u201350 %",
+    "accuracy": 0.9761904761904762
+   },
+   {
+    "model": "Perceptron",
+    "load": "50\u201370 %",
+    "accuracy": 0.8807947019867549
+   },
+   {
+    "model": "Perceptron",
+    "load": "70\u201390 %",
+    "accuracy": 0.9344262295081968
+   },
+   {
+    "model": "Perceptron",
+    "load": "90\u2013110 %",
+    "accuracy": 0.9603960396039604
+   },
+   {
+    "model": "ADALINE",
+    "load": "30\u201350 %",
+    "accuracy": 0.9603174603174603
+   },
+   {
+    "model": "ADALINE",
+    "load": "50\u201370 %",
+    "accuracy": 0.9006622516556292
+   },
+   {
+    "model": "ADALINE",
+    "load": "70\u201390 %",
+    "accuracy": 0.9180327868852459
+   },
+   {
+    "model": "ADALINE",
+    "load": "90\u2013110 %",
+    "accuracy": 0.9207920792079208
+   },
+   {
+    "model": "MLP-BP",
+    "load": "30\u201350 %",
+    "accuracy": 0.9841269841269841
+   },
+   {
+    "model": "MLP-BP",
+    "load": "50\u201370 %",
+    "accuracy": 0.9205298013245033
+   },
+   {
+    "model": "MLP-BP",
+    "load": "70\u201390 %",
+    "accuracy": 0.9426229508196722
+   },
+   {
+    "model": "MLP-BP",
+    "load": "90\u2013110 %",
+    "accuracy": 0.9801980198019802
+   },
+   {
+    "model": "MLP-momentum",
+    "load": "30\u201350 %",
+    "accuracy": 0.9761904761904762
+   },
+   {
+    "model": "MLP-momentum",
+    "load": "50\u201370 %",
+    "accuracy": 0.9072847682119205
+   },
+   {
+    "model": "MLP-momentum",
+    "load": "70\u201390 %",
+    "accuracy": 0.9426229508196722
+   },
+   {
+    "model": "MLP-momentum",
+    "load": "90\u2013110 %",
+    "accuracy": 0.9801980198019802
+   },
+   {
+    "model": "MLP-adaptive",
+    "load": "30\u201350 %",
+    "accuracy": 0.9841269841269841
+   },
+   {
+    "model": "MLP-adaptive",
+    "load": "50\u201370 %",
+    "accuracy": 0.9006622516556292
+   },
+   {
+    "model": "MLP-adaptive",
+    "load": "70\u201390 %",
+    "accuracy": 0.9426229508196722
+   },
+   {
+    "model": "MLP-adaptive",
+    "load": "90\u2013110 %",
+    "accuracy": 0.9801980198019802
+   },
+   {
+    "model": "MLP-LM",
+    "load": "30\u201350 %",
+    "accuracy": 0.9523809523809523
+   },
+   {
+    "model": "MLP-LM",
+    "load": "50\u201370 %",
+    "accuracy": 0.9205298013245033
+   },
+   {
+    "model": "MLP-LM",
+    "load": "70\u201390 %",
+    "accuracy": 0.9344262295081968
+   },
+   {
+    "model": "MLP-LM",
+    "load": "90\u2013110 %",
+    "accuracy": 0.9801980198019802
+   },
+   {
+    "model": "RBF",
+    "load": "30\u201350 %",
+    "accuracy": 0.6904761904761905
+   },
+   {
+    "model": "RBF",
+    "load": "50\u201370 %",
+    "accuracy": 0.847682119205298
+   },
+   {
+    "model": "RBF",
+    "load": "70\u201390 %",
+    "accuracy": 0.8278688524590164
+   },
+   {
+    "model": "RBF",
+    "load": "90\u2013110 %",
+    "accuracy": 0.8118811881188119
+   }
+  ]
+ },
+ "repeated": {
+  "n_runs": 10,
+  "runs": [
+   {
+    "task": "diagnosis",
+    "seed": 0,
+    "model": "Perceptron",
+    "accuracy": 0.9366666666666666,
+    "f1": 0.936813086479386,
+    "train_time_s": 1.5762407779693604,
+    "best_epoch_A": 75
+   },
+   {
+    "task": "diagnosis",
+    "seed": 0,
+    "model": "ADALINE",
+    "accuracy": 0.9133333333333333,
+    "f1": 0.9138398830960647,
+    "train_time_s": 1.2078590393066406,
+    "best_epoch_A": 69
+   },
+   {
+    "task": "diagnosis",
+    "seed": 0,
+    "model": "MLP-BP",
+    "accuracy": 0.9533333333333334,
+    "f1": 0.9534728137730415,
+    "train_time_s": 7.214796304702759,
+    "best_epoch_A": 149
+   },
+   {
+    "task": "diagnosis",
+    "seed": 0,
+    "model": "MLP-momentum",
+    "accuracy": 0.9433333333333334,
+    "f1": 0.9437969566600021,
+    "train_time_s": 7.083601474761963,
+    "best_epoch_A": 37
+   },
+   {
+    "task": "diagnosis",
+    "seed": 0,
+    "model": "MLP-adaptive",
+    "accuracy": 0.9433333333333334,
+    "f1": 0.943539374183351,
+    "train_time_s": 6.939202785491943,
+    "best_epoch_A": 52
+   },
+   {
+    "task": "diagnosis",
+    "seed": 0,
+    "model": "MLP-LM",
+    "accuracy": 0.9533333333333334,
+    "f1": 0.9536658293810139,
+    "train_time_s": 2.8641793727874756,
+    "best_epoch_A": 7
+   },
+   {
+    "task": "diagnosis",
+    "seed": 0,
+    "model": "RBF",
+    "accuracy": 0.7566666666666667,
+    "f1": 0.7569676295607485,
+    "train_time_s": 0.006232738494873047,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "diagnosis",
+    "seed": 1,
+    "model": "Perceptron",
+    "accuracy": 0.9533333333333334,
+    "f1": 0.9534364625273717,
+    "train_time_s": 1.6470043659210205,
+    "best_epoch_A": 74
+   },
+   {
+    "task": "diagnosis",
+    "seed": 1,
+    "model": "ADALINE",
+    "accuracy": 0.9066666666666666,
+    "f1": 0.9076027584947024,
+    "train_time_s": 1.1909127235412598,
+    "best_epoch_A": 74
+   },
+   {
+    "task": "diagnosis",
+    "seed": 1,
+    "model": "MLP-BP",
+    "accuracy": 0.9533333333333334,
+    "f1": 0.9536061768297062,
+    "train_time_s": 7.146291255950928,
+    "best_epoch_A": 116
+   },
+   {
+    "task": "diagnosis",
+    "seed": 1,
+    "model": "MLP-momentum",
+    "accuracy": 0.9433333333333334,
+    "f1": 0.9440459067597848,
+    "train_time_s": 7.012389421463013,
+    "best_epoch_A": 63
+   },
+   {
+    "task": "diagnosis",
+    "seed": 1,
+    "model": "MLP-adaptive",
+    "accuracy": 0.9433333333333334,
+    "f1": 0.9437692396413244,
+    "train_time_s": 7.217326879501343,
+    "best_epoch_A": 58
+   },
+   {
+    "task": "diagnosis",
+    "seed": 1,
+    "model": "MLP-LM",
+    "accuracy": 0.93,
+    "f1": 0.9307249338421955,
+    "train_time_s": 2.606147527694702,
+    "best_epoch_A": 10
+   },
+   {
+    "task": "diagnosis",
+    "seed": 1,
+    "model": "RBF",
+    "accuracy": 0.6833333333333333,
+    "f1": 0.6674675051854604,
+    "train_time_s": 0.008281946182250977,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "diagnosis",
+    "seed": 2,
+    "model": "Perceptron",
+    "accuracy": 0.9266666666666666,
+    "f1": 0.9264384442301511,
+    "train_time_s": 1.603912353515625,
+    "best_epoch_A": 265
+   },
+   {
+    "task": "diagnosis",
+    "seed": 2,
+    "model": "ADALINE",
+    "accuracy": 0.8966666666666666,
+    "f1": 0.8984970630001057,
+    "train_time_s": 1.2033097743988037,
+    "best_epoch_A": 183
+   },
+   {
+    "task": "diagnosis",
+    "seed": 2,
+    "model": "MLP-BP",
+    "accuracy": 0.9366666666666666,
+    "f1": 0.9367235463751733,
+    "train_time_s": 7.035109281539917,
+    "best_epoch_A": 107
+   },
+   {
+    "task": "diagnosis",
+    "seed": 2,
+    "model": "MLP-momentum",
+    "accuracy": 0.9366666666666666,
+    "f1": 0.9366427782018276,
+    "train_time_s": 7.0064051151275635,
+    "best_epoch_A": 22
+   },
+   {
+    "task": "diagnosis",
+    "seed": 2,
+    "model": "MLP-adaptive",
+    "accuracy": 0.94,
+    "f1": 0.9400519468368707,
+    "train_time_s": 7.324295520782471,
+    "best_epoch_A": 22
+   },
+   {
+    "task": "diagnosis",
+    "seed": 2,
+    "model": "MLP-LM",
+    "accuracy": 0.93,
+    "f1": 0.92998313581843,
+    "train_time_s": 2.7939507961273193,
+    "best_epoch_A": 10
+   },
+   {
+    "task": "diagnosis",
+    "seed": 2,
+    "model": "RBF",
+    "accuracy": 0.7933333333333333,
+    "f1": 0.790081759859369,
+    "train_time_s": 0.007420063018798828,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "diagnosis",
+    "seed": 3,
+    "model": "Perceptron",
+    "accuracy": 0.9233333333333333,
+    "f1": 0.9238973527469987,
+    "train_time_s": 1.6949853897094727,
+    "best_epoch_A": 232
+   },
+   {
+    "task": "diagnosis",
+    "seed": 3,
+    "model": "ADALINE",
+    "accuracy": 0.8966666666666666,
+    "f1": 0.8981668262762706,
+    "train_time_s": 1.114116907119751,
+    "best_epoch_A": 95
+   },
+   {
+    "task": "diagnosis",
+    "seed": 3,
+    "model": "MLP-BP",
+    "accuracy": 0.9333333333333333,
+    "f1": 0.9337503524769794,
+    "train_time_s": 7.356691837310791,
+    "best_epoch_A": 159
+   },
+   {
+    "task": "diagnosis",
+    "seed": 3,
+    "model": "MLP-momentum",
+    "accuracy": 0.9333333333333333,
+    "f1": 0.9339649160985457,
+    "train_time_s": 6.9532318115234375,
+    "best_epoch_A": 21
+   },
+   {
+    "task": "diagnosis",
+    "seed": 3,
+    "model": "MLP-adaptive",
+    "accuracy": 0.9366666666666666,
+    "f1": 0.9372475199579064,
+    "train_time_s": 6.667037487030029,
+    "best_epoch_A": 21
+   },
+   {
+    "task": "diagnosis",
+    "seed": 3,
+    "model": "MLP-LM",
+    "accuracy": 0.8833333333333333,
+    "f1": 0.883602852644253,
+    "train_time_s": 2.6712160110473633,
+    "best_epoch_A": 17
+   },
+   {
+    "task": "diagnosis",
+    "seed": 3,
+    "model": "RBF",
+    "accuracy": 0.7933333333333333,
+    "f1": 0.7933277154543816,
+    "train_time_s": 0.005936145782470703,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "diagnosis",
+    "seed": 4,
+    "model": "Perceptron",
+    "accuracy": 0.9,
+    "f1": 0.8998980388195064,
+    "train_time_s": 1.67706298828125,
+    "best_epoch_A": 299
+   },
+   {
+    "task": "diagnosis",
+    "seed": 4,
+    "model": "ADALINE",
+    "accuracy": 0.86,
+    "f1": 0.8632867233640218,
+    "train_time_s": 1.1939270496368408,
+    "best_epoch_A": 182
+   },
+   {
+    "task": "diagnosis",
+    "seed": 4,
+    "model": "MLP-BP",
+    "accuracy": 0.9233333333333333,
+    "f1": 0.9242271366215691,
+    "train_time_s": 7.051363468170166,
+    "best_epoch_A": 146
+   },
+   {
+    "task": "diagnosis",
+    "seed": 4,
+    "model": "MLP-momentum",
+    "accuracy": 0.9233333333333333,
+    "f1": 0.9235914559031274,
+    "train_time_s": 7.193102836608887,
+    "best_epoch_A": 53
+   },
+   {
+    "task": "diagnosis",
+    "seed": 4,
+    "model": "MLP-adaptive",
+    "accuracy": 0.91,
+    "f1": 0.9100615268213772,
+    "train_time_s": 7.15281867980957,
+    "best_epoch_A": 74
+   },
+   {
+    "task": "diagnosis",
+    "seed": 4,
+    "model": "MLP-LM",
+    "accuracy": 0.9066666666666666,
+    "f1": 0.9078373462920712,
+    "train_time_s": 2.495150327682495,
+    "best_epoch_A": 9
+   },
+   {
+    "task": "diagnosis",
+    "seed": 4,
+    "model": "RBF",
+    "accuracy": 0.77,
+    "f1": 0.7612697355743719,
+    "train_time_s": 0.006121397018432617,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "diagnosis",
+    "seed": 5,
+    "model": "Perceptron",
+    "accuracy": 0.9333333333333333,
+    "f1": 0.9337847189646059,
+    "train_time_s": 1.6503424644470215,
+    "best_epoch_A": 152
+   },
+   {
+    "task": "diagnosis",
+    "seed": 5,
+    "model": "ADALINE",
+    "accuracy": 0.89,
+    "f1": 0.8934661119793607,
+    "train_time_s": 1.1047720909118652,
+    "best_epoch_A": 146
+   },
+   {
+    "task": "diagnosis",
+    "seed": 5,
+    "model": "MLP-BP",
+    "accuracy": 0.93,
+    "f1": 0.930544508221096,
+    "train_time_s": 7.249384641647339,
+    "best_epoch_A": 112
+   },
+   {
+    "task": "diagnosis",
+    "seed": 5,
+    "model": "MLP-momentum",
+    "accuracy": 0.95,
+    "f1": 0.950281854038774,
+    "train_time_s": 7.123750686645508,
+    "best_epoch_A": 85
+   },
+   {
+    "task": "diagnosis",
+    "seed": 5,
+    "model": "MLP-adaptive",
+    "accuracy": 0.9433333333333334,
+    "f1": 0.9428221175297997,
+    "train_time_s": 7.048180103302002,
+    "best_epoch_A": 24
+   },
+   {
+    "task": "diagnosis",
+    "seed": 5,
+    "model": "MLP-LM",
+    "accuracy": 0.91,
+    "f1": 0.9106056720190306,
+    "train_time_s": 2.528549909591675,
+    "best_epoch_A": 13
+   },
+   {
+    "task": "diagnosis",
+    "seed": 5,
+    "model": "RBF",
+    "accuracy": 0.76,
+    "f1": 0.749956920804649,
+    "train_time_s": 0.00706934928894043,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "diagnosis",
+    "seed": 6,
+    "model": "Perceptron",
+    "accuracy": 0.9233333333333333,
+    "f1": 0.9222657450076805,
+    "train_time_s": 1.7599105834960938,
+    "best_epoch_A": 226
+   },
+   {
+    "task": "diagnosis",
+    "seed": 6,
+    "model": "ADALINE",
+    "accuracy": 0.8766666666666667,
+    "f1": 0.8814175077199318,
+    "train_time_s": 1.2611591815948486,
+    "best_epoch_A": 258
+   },
+   {
+    "task": "diagnosis",
+    "seed": 6,
+    "model": "MLP-BP",
+    "accuracy": 0.9566666666666667,
+    "f1": 0.9564337201104991,
+    "train_time_s": 7.2537407875061035,
+    "best_epoch_A": 87
+   },
+   {
+    "task": "diagnosis",
+    "seed": 6,
+    "model": "MLP-momentum",
+    "accuracy": 0.9466666666666667,
+    "f1": 0.9465242956686808,
+    "train_time_s": 7.149885416030884,
+    "best_epoch_A": 21
+   },
+   {
+    "task": "diagnosis",
+    "seed": 6,
+    "model": "MLP-adaptive",
+    "accuracy": 0.95,
+    "f1": 0.9499682495214083,
+    "train_time_s": 6.498936891555786,
+    "best_epoch_A": 21
+   },
+   {
+    "task": "diagnosis",
+    "seed": 6,
+    "model": "MLP-LM",
+    "accuracy": 0.9466666666666667,
+    "f1": 0.9462154923344617,
+    "train_time_s": 2.734252691268921,
+    "best_epoch_A": 12
+   },
+   {
+    "task": "diagnosis",
+    "seed": 6,
+    "model": "RBF",
+    "accuracy": 0.83,
+    "f1": 0.828495290464834,
+    "train_time_s": 0.008736848831176758,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "diagnosis",
+    "seed": 7,
+    "model": "Perceptron",
+    "accuracy": 0.95,
+    "f1": 0.9501787785168897,
+    "train_time_s": 1.6279244422912598,
+    "best_epoch_A": 162
+   },
+   {
+    "task": "diagnosis",
+    "seed": 7,
+    "model": "ADALINE",
+    "accuracy": 0.9166666666666666,
+    "f1": 0.9184921645245557,
+    "train_time_s": 1.3368349075317383,
+    "best_epoch_A": 241
+   },
+   {
+    "task": "diagnosis",
+    "seed": 7,
+    "model": "MLP-BP",
+    "accuracy": 0.9433333333333334,
+    "f1": 0.9438441793548293,
+    "train_time_s": 7.123579025268555,
+    "best_epoch_A": 111
+   },
+   {
+    "task": "diagnosis",
+    "seed": 7,
+    "model": "MLP-momentum",
+    "accuracy": 0.9466666666666667,
+    "f1": 0.9474223145685663,
+    "train_time_s": 7.227789402008057,
+    "best_epoch_A": 24
+   },
+   {
+    "task": "diagnosis",
+    "seed": 7,
+    "model": "MLP-adaptive",
+    "accuracy": 0.94,
+    "f1": 0.9407817163659182,
+    "train_time_s": 7.199734210968018,
+    "best_epoch_A": 24
+   },
+   {
+    "task": "diagnosis",
+    "seed": 7,
+    "model": "MLP-LM",
+    "accuracy": 0.9166666666666666,
+    "f1": 0.9178729548848719,
+    "train_time_s": 2.6108429431915283,
+    "best_epoch_A": 15
+   },
+   {
+    "task": "diagnosis",
+    "seed": 7,
+    "model": "RBF",
+    "accuracy": 0.7866666666666666,
+    "f1": 0.7868153621601897,
+    "train_time_s": 0.007207155227661133,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "diagnosis",
+    "seed": 8,
+    "model": "Perceptron",
+    "accuracy": 0.9266666666666666,
+    "f1": 0.9269776671285594,
+    "train_time_s": 1.7201979160308838,
+    "best_epoch_A": 189
+   },
+   {
+    "task": "diagnosis",
+    "seed": 8,
+    "model": "ADALINE",
+    "accuracy": 0.9,
+    "f1": 0.9024115753527517,
+    "train_time_s": 1.2616236209869385,
+    "best_epoch_A": 35
+   },
+   {
+    "task": "diagnosis",
+    "seed": 8,
+    "model": "MLP-BP",
+    "accuracy": 0.9533333333333334,
+    "f1": 0.9531847655191108,
+    "train_time_s": 7.308655500411987,
+    "best_epoch_A": 111
+   },
+   {
+    "task": "diagnosis",
+    "seed": 8,
+    "model": "MLP-momentum",
+    "accuracy": 0.9433333333333334,
+    "f1": 0.9432774707330879,
+    "train_time_s": 6.818991422653198,
+    "best_epoch_A": 29
+   },
+   {
+    "task": "diagnosis",
+    "seed": 8,
+    "model": "MLP-adaptive",
+    "accuracy": 0.9466666666666667,
+    "f1": 0.9464684228112367,
+    "train_time_s": 7.167588233947754,
+    "best_epoch_A": 29
+   },
+   {
+    "task": "diagnosis",
+    "seed": 8,
+    "model": "MLP-LM",
+    "accuracy": 0.9433333333333334,
+    "f1": 0.9435563367114168,
+    "train_time_s": 2.7356209754943848,
+    "best_epoch_A": 13
+   },
+   {
+    "task": "diagnosis",
+    "seed": 8,
+    "model": "RBF",
+    "accuracy": 0.7766666666666666,
+    "f1": 0.7794839139040118,
+    "train_time_s": 0.006985187530517578,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "diagnosis",
+    "seed": 9,
+    "model": "Perceptron",
+    "accuracy": 0.9533333333333334,
+    "f1": 0.9534671381498114,
+    "train_time_s": 1.7837378978729248,
+    "best_epoch_A": 151
+   },
+   {
+    "task": "diagnosis",
+    "seed": 9,
+    "model": "ADALINE",
+    "accuracy": 0.9033333333333333,
+    "f1": 0.9028032339473018,
+    "train_time_s": 1.1134920120239258,
+    "best_epoch_A": 122
+   },
+   {
+    "task": "diagnosis",
+    "seed": 9,
+    "model": "MLP-BP",
+    "accuracy": 0.9133333333333333,
+    "f1": 0.9126913791832523,
+    "train_time_s": 7.263906478881836,
+    "best_epoch_A": 191
+   },
+   {
+    "task": "diagnosis",
+    "seed": 9,
+    "model": "MLP-momentum",
+    "accuracy": 0.9,
+    "f1": 0.8984969059891542,
+    "train_time_s": 7.210336208343506,
+    "best_epoch_A": 71
+   },
+   {
+    "task": "diagnosis",
+    "seed": 9,
+    "model": "MLP-adaptive",
+    "accuracy": 0.91,
+    "f1": 0.9090203979822018,
+    "train_time_s": 6.869399309158325,
+    "best_epoch_A": 71
+   },
+   {
+    "task": "diagnosis",
+    "seed": 9,
+    "model": "MLP-LM",
+    "accuracy": 0.9133333333333333,
+    "f1": 0.9126946732806631,
+    "train_time_s": 2.508711099624634,
+    "best_epoch_A": 9
+   },
+   {
+    "task": "diagnosis",
+    "seed": 9,
+    "model": "RBF",
+    "accuracy": 0.8,
+    "f1": 0.793143887862722,
+    "train_time_s": 0.00727534294128418,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "detection",
+    "seed": 0,
+    "model": "Perceptron",
+    "accuracy": 0.9166666666666666,
+    "f1": 0.9152542372881356,
+    "train_time_s": 0.7242128849029541,
+    "best_epoch_A": 196
+   },
+   {
+    "task": "detection",
+    "seed": 0,
+    "model": "ADALINE",
+    "accuracy": 0.8833333333333333,
+    "f1": 0.8771929824561403,
+    "train_time_s": 0.44130754470825195,
+    "best_epoch_A": 131
+   },
+   {
+    "task": "detection",
+    "seed": 0,
+    "model": "MLP-BP",
+    "accuracy": 0.9166666666666666,
+    "f1": 0.9137931034482758,
+    "train_time_s": 2.8551716804504395,
+    "best_epoch_A": 164
+   },
+   {
+    "task": "detection",
+    "seed": 0,
+    "model": "MLP-momentum",
+    "accuracy": 0.925,
+    "f1": 0.9217391304347826,
+    "train_time_s": 2.749965190887451,
+    "best_epoch_A": 34
+   },
+   {
+    "task": "detection",
+    "seed": 0,
+    "model": "MLP-adaptive",
+    "accuracy": 0.925,
+    "f1": 0.9217391304347826,
+    "train_time_s": 2.8610999584198,
+    "best_epoch_A": 26
+   },
+   {
+    "task": "detection",
+    "seed": 0,
+    "model": "MLP-LM",
+    "accuracy": 0.9166666666666666,
+    "f1": 0.9152542372881356,
+    "train_time_s": 0.35129332542419434,
+    "best_epoch_A": 7
+   },
+   {
+    "task": "detection",
+    "seed": 0,
+    "model": "RBF",
+    "accuracy": 0.925,
+    "f1": 0.9256198347107439,
+    "train_time_s": 0.0032584667205810547,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "detection",
+    "seed": 1,
+    "model": "Perceptron",
+    "accuracy": 0.9083333333333333,
+    "f1": 0.905982905982906,
+    "train_time_s": 0.6726546287536621,
+    "best_epoch_A": 49
+   },
+   {
+    "task": "detection",
+    "seed": 1,
+    "model": "ADALINE",
+    "accuracy": 0.875,
+    "f1": 0.8648648648648648,
+    "train_time_s": 0.42067527770996094,
+    "best_epoch_A": 242
+   },
+   {
+    "task": "detection",
+    "seed": 1,
+    "model": "MLP-BP",
+    "accuracy": 0.925,
+    "f1": 0.9230769230769231,
+    "train_time_s": 2.9743385314941406,
+    "best_epoch_A": 161
+   },
+   {
+    "task": "detection",
+    "seed": 1,
+    "model": "MLP-momentum",
+    "accuracy": 0.9083333333333333,
+    "f1": 0.905982905982906,
+    "train_time_s": 2.6772048473358154,
+    "best_epoch_A": 40
+   },
+   {
+    "task": "detection",
+    "seed": 1,
+    "model": "MLP-adaptive",
+    "accuracy": 0.9083333333333333,
+    "f1": 0.905982905982906,
+    "train_time_s": 2.8910932540893555,
+    "best_epoch_A": 40
+   },
+   {
+    "task": "detection",
+    "seed": 1,
+    "model": "MLP-LM",
+    "accuracy": 0.9083333333333333,
+    "f1": 0.9075630252100839,
+    "train_time_s": 0.34700441360473633,
+    "best_epoch_A": 6
+   },
+   {
+    "task": "detection",
+    "seed": 1,
+    "model": "RBF",
+    "accuracy": 0.8833333333333333,
+    "f1": 0.8793103448275861,
+    "train_time_s": 0.003472566604614258,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "detection",
+    "seed": 2,
+    "model": "Perceptron",
+    "accuracy": 0.925,
+    "f1": 0.9243697478991596,
+    "train_time_s": 0.6672909259796143,
+    "best_epoch_A": 175
+   },
+   {
+    "task": "detection",
+    "seed": 2,
+    "model": "ADALINE",
+    "accuracy": 0.8583333333333333,
+    "f1": 0.8468468468468469,
+    "train_time_s": 0.479339599609375,
+    "best_epoch_A": 224
+   },
+   {
+    "task": "detection",
+    "seed": 2,
+    "model": "MLP-BP",
+    "accuracy": 0.9,
+    "f1": 0.896551724137931,
+    "train_time_s": 3.118408441543579,
+    "best_epoch_A": 216
+   },
+   {
+    "task": "detection",
+    "seed": 2,
+    "model": "MLP-momentum",
+    "accuracy": 0.875,
+    "f1": 0.8717948717948718,
+    "train_time_s": 3.0037953853607178,
+    "best_epoch_A": 22
+   },
+   {
+    "task": "detection",
+    "seed": 2,
+    "model": "MLP-adaptive",
+    "accuracy": 0.8833333333333333,
+    "f1": 0.8793103448275861,
+    "train_time_s": 2.624443292617798,
+    "best_epoch_A": 35
+   },
+   {
+    "task": "detection",
+    "seed": 2,
+    "model": "MLP-LM",
+    "accuracy": 0.8666666666666667,
+    "f1": 0.8688524590163934,
+    "train_time_s": 0.3771848678588867,
+    "best_epoch_A": 4
+   },
+   {
+    "task": "detection",
+    "seed": 2,
+    "model": "RBF",
+    "accuracy": 0.8916666666666667,
+    "f1": 0.894308943089431,
+    "train_time_s": 0.003649473190307617,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "detection",
+    "seed": 3,
+    "model": "Perceptron",
+    "accuracy": 0.9083333333333333,
+    "f1": 0.905982905982906,
+    "train_time_s": 0.6579132080078125,
+    "best_epoch_A": 140
+   },
+   {
+    "task": "detection",
+    "seed": 3,
+    "model": "ADALINE",
+    "accuracy": 0.8416666666666667,
+    "f1": 0.822429906542056,
+    "train_time_s": 0.4537689685821533,
+    "best_epoch_A": 34
+   },
+   {
+    "task": "detection",
+    "seed": 3,
+    "model": "MLP-BP",
+    "accuracy": 0.9166666666666666,
+    "f1": 0.912280701754386,
+    "train_time_s": 2.84155535697937,
+    "best_epoch_A": 120
+   },
+   {
+    "task": "detection",
+    "seed": 3,
+    "model": "MLP-momentum",
+    "accuracy": 0.9416666666666667,
+    "f1": 0.9401709401709402,
+    "train_time_s": 2.4953219890594482,
+    "best_epoch_A": 37
+   },
+   {
+    "task": "detection",
+    "seed": 3,
+    "model": "MLP-adaptive",
+    "accuracy": 0.9333333333333333,
+    "f1": 0.9310344827586207,
+    "train_time_s": 2.854487419128418,
+    "best_epoch_A": 37
+   },
+   {
+    "task": "detection",
+    "seed": 3,
+    "model": "MLP-LM",
+    "accuracy": 0.9166666666666666,
+    "f1": 0.9152542372881356,
+    "train_time_s": 0.3351898193359375,
+    "best_epoch_A": 5
+   },
+   {
+    "task": "detection",
+    "seed": 3,
+    "model": "RBF",
+    "accuracy": 0.9083333333333333,
+    "f1": 0.9026548672566371,
+    "train_time_s": 0.004149675369262695,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "detection",
+    "seed": 4,
+    "model": "Perceptron",
+    "accuracy": 0.8916666666666667,
+    "f1": 0.8888888888888888,
+    "train_time_s": 0.6173563003540039,
+    "best_epoch_A": 268
+   },
+   {
+    "task": "detection",
+    "seed": 4,
+    "model": "ADALINE",
+    "accuracy": 0.8583333333333333,
+    "f1": 0.8495575221238938,
+    "train_time_s": 0.40024495124816895,
+    "best_epoch_A": 271
+   },
+   {
+    "task": "detection",
+    "seed": 4,
+    "model": "MLP-BP",
+    "accuracy": 0.9083333333333333,
+    "f1": 0.905982905982906,
+    "train_time_s": 3.0284907817840576,
+    "best_epoch_A": 98
+   },
+   {
+    "task": "detection",
+    "seed": 4,
+    "model": "MLP-momentum",
+    "accuracy": 0.9083333333333333,
+    "f1": 0.905982905982906,
+    "train_time_s": 2.526994466781616,
+    "best_epoch_A": 21
+   },
+   {
+    "task": "detection",
+    "seed": 4,
+    "model": "MLP-adaptive",
+    "accuracy": 0.9083333333333333,
+    "f1": 0.905982905982906,
+    "train_time_s": 2.8194797039031982,
+    "best_epoch_A": 27
+   },
+   {
+    "task": "detection",
+    "seed": 4,
+    "model": "MLP-LM",
+    "accuracy": 0.9,
+    "f1": 0.9,
+    "train_time_s": 0.3848421573638916,
+    "best_epoch_A": 6
+   },
+   {
+    "task": "detection",
+    "seed": 4,
+    "model": "RBF",
+    "accuracy": 0.825,
+    "f1": 0.8346456692913385,
+    "train_time_s": 0.0032291412353515625,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "detection",
+    "seed": 5,
+    "model": "Perceptron",
+    "accuracy": 0.9166666666666666,
+    "f1": 0.9166666666666666,
+    "train_time_s": 0.6945478916168213,
+    "best_epoch_A": 101
+   },
+   {
+    "task": "detection",
+    "seed": 5,
+    "model": "ADALINE",
+    "accuracy": 0.9083333333333333,
+    "f1": 0.905982905982906,
+    "train_time_s": 0.4645850658416748,
+    "best_epoch_A": 218
+   },
+   {
+    "task": "detection",
+    "seed": 5,
+    "model": "MLP-BP",
+    "accuracy": 0.925,
+    "f1": 0.9243697478991596,
+    "train_time_s": 2.937497854232788,
+    "best_epoch_A": 298
+   },
+   {
+    "task": "detection",
+    "seed": 5,
+    "model": "MLP-momentum",
+    "accuracy": 0.925,
+    "f1": 0.9256198347107439,
+    "train_time_s": 2.8823556900024414,
+    "best_epoch_A": 61
+   },
+   {
+    "task": "detection",
+    "seed": 5,
+    "model": "MLP-adaptive",
+    "accuracy": 0.925,
+    "f1": 0.9243697478991596,
+    "train_time_s": 2.8226115703582764,
+    "best_epoch_A": 59
+   },
+   {
+    "task": "detection",
+    "seed": 5,
+    "model": "MLP-LM",
+    "accuracy": 0.9333333333333333,
+    "f1": 0.9322033898305084,
+    "train_time_s": 0.3390190601348877,
+    "best_epoch_A": 13
+   },
+   {
+    "task": "detection",
+    "seed": 5,
+    "model": "RBF",
+    "accuracy": 0.9083333333333333,
+    "f1": 0.9090909090909091,
+    "train_time_s": 0.0031642913818359375,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "detection",
+    "seed": 6,
+    "model": "Perceptron",
+    "accuracy": 0.8583333333333333,
+    "f1": 0.8571428571428572,
+    "train_time_s": 0.5924887657165527,
+    "best_epoch_A": 37
+   },
+   {
+    "task": "detection",
+    "seed": 6,
+    "model": "ADALINE",
+    "accuracy": 0.8416666666666667,
+    "f1": 0.8288288288288289,
+    "train_time_s": 0.4445149898529053,
+    "best_epoch_A": 221
+   },
+   {
+    "task": "detection",
+    "seed": 6,
+    "model": "MLP-BP",
+    "accuracy": 0.9083333333333333,
+    "f1": 0.905982905982906,
+    "train_time_s": 2.852590560913086,
+    "best_epoch_A": 108
+   },
+   {
+    "task": "detection",
+    "seed": 6,
+    "model": "MLP-momentum",
+    "accuracy": 0.8916666666666667,
+    "f1": 0.8869565217391303,
+    "train_time_s": 2.731333017349243,
+    "best_epoch_A": 44
+   },
+   {
+    "task": "detection",
+    "seed": 6,
+    "model": "MLP-adaptive",
+    "accuracy": 0.8916666666666667,
+    "f1": 0.8869565217391303,
+    "train_time_s": 2.908064603805542,
+    "best_epoch_A": 44
+   },
+   {
+    "task": "detection",
+    "seed": 6,
+    "model": "MLP-LM",
+    "accuracy": 0.925,
+    "f1": 0.9243697478991596,
+    "train_time_s": 0.3024744987487793,
+    "best_epoch_A": 5
+   },
+   {
+    "task": "detection",
+    "seed": 6,
+    "model": "RBF",
+    "accuracy": 0.8333333333333334,
+    "f1": 0.8305084745762712,
+    "train_time_s": 0.002824544906616211,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "detection",
+    "seed": 7,
+    "model": "Perceptron",
+    "accuracy": 0.9333333333333333,
+    "f1": 0.9310344827586207,
+    "train_time_s": 0.6363158226013184,
+    "best_epoch_A": 160
+   },
+   {
+    "task": "detection",
+    "seed": 7,
+    "model": "ADALINE",
+    "accuracy": 0.8916666666666667,
+    "f1": 0.882882882882883,
+    "train_time_s": 0.4707019329071045,
+    "best_epoch_A": 236
+   },
+   {
+    "task": "detection",
+    "seed": 7,
+    "model": "MLP-BP",
+    "accuracy": 0.9166666666666666,
+    "f1": 0.9107142857142857,
+    "train_time_s": 2.6444649696350098,
+    "best_epoch_A": 104
+   },
+   {
+    "task": "detection",
+    "seed": 7,
+    "model": "MLP-momentum",
+    "accuracy": 0.9166666666666666,
+    "f1": 0.9107142857142857,
+    "train_time_s": 2.645998239517212,
+    "best_epoch_A": 29
+   },
+   {
+    "task": "detection",
+    "seed": 7,
+    "model": "MLP-adaptive",
+    "accuracy": 0.9166666666666666,
+    "f1": 0.9107142857142857,
+    "train_time_s": 2.9302077293395996,
+    "best_epoch_A": 17
+   },
+   {
+    "task": "detection",
+    "seed": 7,
+    "model": "MLP-LM",
+    "accuracy": 0.925,
+    "f1": 0.9217391304347826,
+    "train_time_s": 0.30598878860473633,
+    "best_epoch_A": 5
+   },
+   {
+    "task": "detection",
+    "seed": 7,
+    "model": "RBF",
+    "accuracy": 0.85,
+    "f1": 0.8548387096774193,
+    "train_time_s": 0.0025975704193115234,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "detection",
+    "seed": 8,
+    "model": "Perceptron",
+    "accuracy": 0.8916666666666667,
+    "f1": 0.8907563025210085,
+    "train_time_s": 0.6494135856628418,
+    "best_epoch_A": 26
+   },
+   {
+    "task": "detection",
+    "seed": 8,
+    "model": "ADALINE",
+    "accuracy": 0.8666666666666667,
+    "f1": 0.8620689655172413,
+    "train_time_s": 0.47252559661865234,
+    "best_epoch_A": 207
+   },
+   {
+    "task": "detection",
+    "seed": 8,
+    "model": "MLP-BP",
+    "accuracy": 0.9416666666666667,
+    "f1": 0.9401709401709402,
+    "train_time_s": 2.8142642974853516,
+    "best_epoch_A": 97
+   },
+   {
+    "task": "detection",
+    "seed": 8,
+    "model": "MLP-momentum",
+    "accuracy": 0.9416666666666667,
+    "f1": 0.9401709401709402,
+    "train_time_s": 2.7535128593444824,
+    "best_epoch_A": 31
+   },
+   {
+    "task": "detection",
+    "seed": 8,
+    "model": "MLP-adaptive",
+    "accuracy": 0.9333333333333333,
+    "f1": 0.9322033898305084,
+    "train_time_s": 2.9693198204040527,
+    "best_epoch_A": 18
+   },
+   {
+    "task": "detection",
+    "seed": 8,
+    "model": "MLP-LM",
+    "accuracy": 0.95,
+    "f1": 0.9491525423728815,
+    "train_time_s": 0.3811020851135254,
+    "best_epoch_A": 4
+   },
+   {
+    "task": "detection",
+    "seed": 8,
+    "model": "RBF",
+    "accuracy": 0.8666666666666667,
+    "f1": 0.8749999999999999,
+    "train_time_s": 0.0035276412963867188,
+    "best_epoch_A": 1
+   },
+   {
+    "task": "detection",
+    "seed": 9,
+    "model": "Perceptron",
+    "accuracy": 0.875,
+    "f1": 0.8799999999999999,
+    "train_time_s": 0.5871410369873047,
+    "best_epoch_A": 270
+   },
+   {
+    "task": "detection",
+    "seed": 9,
+    "model": "ADALINE",
+    "accuracy": 0.875,
+    "f1": 0.8739495798319329,
+    "train_time_s": 0.4338958263397217,
+    "best_epoch_A": 226
+   },
+   {
+    "task": "detection",
+    "seed": 9,
+    "model": "MLP-BP",
+    "accuracy": 0.9,
+    "f1": 0.9016393442622951,
+    "train_time_s": 2.9957263469696045,
+    "best_epoch_A": 272
+   },
+   {
+    "task": "detection",
+    "seed": 9,
+    "model": "MLP-momentum",
+    "accuracy": 0.9,
+    "f1": 0.9016393442622951,
+    "train_time_s": 2.7327773571014404,
+    "best_epoch_A": 81
+   },
+   {
+    "task": "detection",
+    "seed": 9,
+    "model": "MLP-adaptive",
+    "accuracy": 0.9,
+    "f1": 0.9016393442622951,
+    "train_time_s": 3.0087900161743164,
+    "best_epoch_A": 98
+   },
+   {
+    "task": "detection",
+    "seed": 9,
+    "model": "MLP-LM",
+    "accuracy": 0.9083333333333333,
+    "f1": 0.9133858267716535,
+    "train_time_s": 0.37188029289245605,
+    "best_epoch_A": 9
+   },
+   {
+    "task": "detection",
+    "seed": 9,
+    "model": "RBF",
+    "accuracy": 0.8583333333333333,
+    "f1": 0.8547008547008548,
+    "train_time_s": 0.0037508010864257812,
+    "best_epoch_A": 1
+   }
+  ],
+  "summary": [
+   {
+    "task": "detection",
+    "model": "ADALINE",
+    "acc_mean": 0.8699999999999999,
+    "acc_std": 0.021227747971714225,
+    "acc_min": 0.8416666666666667,
+    "acc_max": 0.9083333333333333,
+    "f1_mean": 0.8614605285877595,
+    "time_mean": 0.44815597534179685
+   },
+   {
+    "task": "detection",
+    "model": "MLP-BP",
+    "acc_mean": 0.9158333333333333,
+    "acc_std": 0.012699032722958286,
+    "acc_min": 0.9,
+    "acc_max": 0.9416666666666667,
+    "f1_mean": 0.9134562582430009,
+    "time_mean": 2.9062508821487425
+   },
+   {
+    "task": "detection",
+    "model": "MLP-LM",
+    "acc_mean": 0.915,
+    "acc_std": 0.022152668930418704,
+    "acc_min": 0.8666666666666667,
+    "acc_max": 0.95,
+    "f1_mean": 0.9147774596111734,
+    "time_mean": 0.3495979309082031
+   },
+   {
+    "task": "detection",
+    "model": "MLP-adaptive",
+    "acc_mean": 0.9125,
+    "acc_std": 0.01723565784165399,
+    "acc_min": 0.8833333333333333,
+    "acc_max": 0.9333333333333333,
+    "f1_mean": 0.909993305943218,
+    "time_mean": 2.868959736824036
+   },
+   {
+    "task": "detection",
+    "model": "MLP-momentum",
+    "acc_mean": 0.9133333333333333,
+    "acc_std": 0.02122774797171423,
+    "acc_min": 0.875,
+    "acc_max": 0.9416666666666667,
+    "f1_mean": 0.9110771680963803,
+    "time_mean": 2.7199259042739867
+   },
+   {
+    "task": "detection",
+    "model": "Perceptron",
+    "acc_mean": 0.9025000000000001,
+    "acc_std": 0.023257150765482754,
+    "acc_min": 0.8583333333333333,
+    "acc_max": 0.9333333333333333,
+    "f1_mean": 0.9016078995131149,
+    "time_mean": 0.6499335050582886
+   },
+   {
+    "task": "detection",
+    "model": "RBF",
+    "acc_mean": 0.875,
+    "acc_std": 0.03379312516832347,
+    "acc_min": 0.825,
+    "acc_max": 0.925,
+    "f1_mean": 0.8760678607221191,
+    "time_mean": 0.003362417221069336
+   },
+   {
+    "task": "diagnosis",
+    "model": "ADALINE",
+    "acc_mean": 0.8959999999999999,
+    "acc_std": 0.017054741203866536,
+    "acc_min": 0.86,
+    "acc_max": 0.9166666666666666,
+    "f1_mean": 0.8979983847755066,
+    "time_mean": 1.1988007307052613
+   },
+   {
+    "task": "diagnosis",
+    "model": "MLP-BP",
+    "acc_mean": 0.9396666666666667,
+    "acc_std": 0.014778195482818458,
+    "acc_min": 0.9133333333333333,
+    "acc_max": 0.9566666666666667,
+    "f1_mean": 0.9398478578465257,
+    "time_mean": 7.200351858139038
+   },
+   {
+    "task": "diagnosis",
+    "model": "MLP-LM",
+    "acc_mean": 0.9233333333333335,
+    "acc_std": 0.021430335024428808,
+    "acc_min": 0.8833333333333333,
+    "acc_max": 0.9533333333333334,
+    "f1_mean": 0.9236759227208408,
+    "time_mean": 2.65486216545105
+   },
+   {
+    "task": "diagnosis",
+    "model": "MLP-adaptive",
+    "acc_mean": 0.9363333333333334,
+    "acc_std": 0.014354420319749896,
+    "acc_min": 0.91,
+    "acc_max": 0.95,
+    "f1_mean": 0.9363730511651394,
+    "time_mean": 7.008452010154724
+   },
+   {
+    "task": "diagnosis",
+    "model": "MLP-momentum",
+    "acc_mean": 0.9366666666666668,
+    "acc_std": 0.015071844406945029,
+    "acc_min": 0.9,
+    "acc_max": 0.95,
+    "f1_mean": 0.9368044854621551,
+    "time_mean": 7.077948379516601
+   },
+   {
+    "task": "diagnosis",
+    "model": "Perceptron",
+    "acc_mean": 0.9326666666666666,
+    "acc_std": 0.016614733904461127,
+    "acc_min": 0.9,
+    "acc_max": 0.9533333333333334,
+    "f1_mean": 0.932715743257096,
+    "time_mean": 1.6741319179534913
+   },
+   {
+    "task": "diagnosis",
+    "model": "RBF",
+    "acc_mean": 0.775,
+    "acc_std": 0.03865804501581067,
+    "acc_min": 0.6833333333333333,
+    "acc_max": 0.83,
+    "f1_mean": 0.7707009720830739,
+    "time_mean": 0.007126617431640625
+   }
+  ]
+ },
+ "hidden": {
+  "n_seeds": 3,
+  "rows": [
+   {
+    "H": 1,
+    "seed": 0,
+    "train_E_final": 0.26306699478240636,
+    "test_E_final": 0.27597128473510907,
+    "test_E_best": 0.2742404113025891,
+    "best_epoch": 276,
+    "train_acc": 0.62,
+    "val_acc": 0.6133333333333333
+   },
+   {
+    "H": 1,
+    "seed": 1,
+    "train_E_final": 0.2528297987508307,
+    "test_E_final": 0.25219084707051104,
+    "test_E_best": 0.25127230445854,
+    "best_epoch": 261,
+    "train_acc": 0.62,
+    "val_acc": 0.6266666666666667
+   },
+   {
+    "H": 1,
+    "seed": 2,
+    "train_E_final": 0.27160109633542256,
+    "test_E_final": 0.2805100468006694,
+    "test_E_best": 0.271677850297902,
+    "best_epoch": 149,
+    "train_acc": 0.5744444444444444,
+    "val_acc": 0.5533333333333333
+   },
+   {
+    "H": 2,
+    "seed": 0,
+    "train_E_final": 0.13110768322472793,
+    "test_E_final": 0.14476316223431757,
+    "test_E_best": 0.13725330683269982,
+    "best_epoch": 125,
+    "train_acc": 0.8522222222222222,
+    "val_acc": 0.8566666666666667
+   },
+   {
+    "H": 2,
+    "seed": 1,
+    "train_E_final": 0.1257903199164098,
+    "test_E_final": 0.1304281537901209,
+    "test_E_best": 0.11866358618717826,
+    "best_epoch": 76,
+    "train_acc": 0.8622222222222222,
+    "val_acc": 0.83
+   },
+   {
+    "H": 2,
+    "seed": 2,
+    "train_E_final": 0.11413203717663183,
+    "test_E_final": 0.12983618294755048,
+    "test_E_best": 0.1256201328788679,
+    "best_epoch": 133,
+    "train_acc": 0.8844444444444445,
+    "val_acc": 0.83
+   },
+   {
+    "H": 4,
+    "seed": 0,
+    "train_E_final": 0.03543581817122682,
+    "test_E_final": 0.07430956289459315,
+    "test_E_best": 0.06757931042526703,
+    "best_epoch": 155,
+    "train_acc": 0.96,
+    "val_acc": 0.92
+   },
+   {
+    "H": 4,
+    "seed": 1,
+    "train_E_final": 0.03609967156866552,
+    "test_E_final": 0.03434856234495483,
+    "test_E_best": 0.03014879307972418,
+    "best_epoch": 295,
+    "train_acc": 0.9555555555555556,
+    "val_acc": 0.9466666666666667
+   },
+   {
+    "H": 4,
+    "seed": 2,
+    "train_E_final": 0.027019584371354856,
+    "test_E_final": 0.057925766662382,
+    "test_E_best": 0.0508810839997327,
+    "best_epoch": 125,
+    "train_acc": 0.9588888888888889,
+    "val_acc": 0.9366666666666666
+   },
+   {
+    "H": 8,
+    "seed": 0,
+    "train_E_final": 0.0182890098650728,
+    "test_E_final": 0.07168956611971555,
+    "test_E_best": 0.05760685497001449,
+    "best_epoch": 85,
+    "train_acc": 0.9677777777777777,
+    "val_acc": 0.9533333333333334
+   },
+   {
+    "H": 8,
+    "seed": 1,
+    "train_E_final": 0.026850445887961837,
+    "test_E_final": 0.05299706020693976,
+    "test_E_best": 0.040228230596341126,
+    "best_epoch": 70,
+    "train_acc": 0.9533333333333334,
+    "val_acc": 0.9433333333333334
+   },
+   {
+    "H": 8,
+    "seed": 2,
+    "train_E_final": 0.015136660363359249,
+    "test_E_final": 0.06649220764593314,
+    "test_E_best": 0.04596813651656613,
+    "best_epoch": 67,
+    "train_acc": 0.9677777777777777,
+    "val_acc": 0.9333333333333333
+   },
+   {
+    "H": 15,
+    "seed": 0,
+    "train_E_final": 0.013855669782601438,
+    "test_E_final": 0.06625951076543779,
+    "test_E_best": 0.05808969229147119,
+    "best_epoch": 37,
+    "train_acc": 0.9622222222222222,
+    "val_acc": 0.9433333333333334
+   },
+   {
+    "H": 15,
+    "seed": 1,
+    "train_E_final": 0.01285001368064064,
+    "test_E_final": 0.06112684736503585,
+    "test_E_best": 0.042020384110784216,
+    "best_epoch": 63,
+    "train_acc": 0.9666666666666667,
+    "val_acc": 0.9433333333333334
+   },
+   {
+    "H": 15,
+    "seed": 2,
+    "train_E_final": 0.008124389959913244,
+    "test_E_final": 0.06978769682713985,
+    "test_E_best": 0.04643537191835334,
+    "best_epoch": 22,
+    "train_acc": 0.96,
+    "val_acc": 0.9366666666666666
+   },
+   {
+    "H": 30,
+    "seed": 0,
+    "train_E_final": 0.009643327702412243,
+    "test_E_final": 0.06910222932208401,
+    "test_E_best": 0.05837265419025999,
+    "best_epoch": 45,
+    "train_acc": 0.9666666666666667,
+    "val_acc": 0.95
+   },
+   {
+    "H": 30,
+    "seed": 1,
+    "train_E_final": 0.009436744633771638,
+    "test_E_final": 0.06421580877926193,
+    "test_E_best": 0.040268458712175714,
+    "best_epoch": 23,
+    "train_acc": 0.9511111111111111,
+    "val_acc": 0.9533333333333334
+   },
+   {
+    "H": 30,
+    "seed": 2,
+    "train_E_final": 0.006040828770904143,
+    "test_E_final": 0.06712966581539764,
+    "test_E_best": 0.04552032358014726,
+    "best_epoch": 34,
+    "train_acc": 0.9644444444444444,
+    "val_acc": 0.9333333333333333
+   },
+   {
+    "H": 60,
+    "seed": 0,
+    "train_E_final": 0.008150575887907054,
+    "test_E_final": 0.077303534123644,
+    "test_E_best": 0.060836964352284494,
+    "best_epoch": 43,
+    "train_acc": 0.97,
+    "val_acc": 0.9533333333333334
+   },
+   {
+    "H": 60,
+    "seed": 1,
+    "train_E_final": 0.0062634978668796165,
+    "test_E_final": 0.06141479229788814,
+    "test_E_best": 0.04102963090449326,
+    "best_epoch": 28,
+    "train_acc": 0.9533333333333334,
+    "val_acc": 0.9433333333333334
+   },
+   {
+    "H": 60,
+    "seed": 2,
+    "train_E_final": 0.007692949209879143,
+    "test_E_final": 0.05863316880933883,
+    "test_E_best": 0.04714495825377623,
+    "best_epoch": 26,
+    "train_acc": 0.96,
+    "val_acc": 0.94
+   },
+   {
+    "H": 100,
+    "seed": 0,
+    "train_E_final": 0.008198736892535904,
+    "test_E_final": 0.077643708520993,
+    "test_E_best": 0.06089150660334298,
+    "best_epoch": 23,
+    "train_acc": 0.9566666666666667,
+    "val_acc": 0.95
+   },
+   {
+    "H": 100,
+    "seed": 1,
+    "train_E_final": 0.008784218773204669,
+    "test_E_final": 0.0538420688897891,
+    "test_E_best": 0.04056024824322502,
+    "best_epoch": 29,
+    "train_acc": 0.9477777777777778,
+    "val_acc": 0.9633333333333334
+   },
+   {
+    "H": 100,
+    "seed": 2,
+    "train_E_final": 0.008742359892940936,
+    "test_E_final": 0.0564618175833701,
+    "test_E_best": 0.04654626646438922,
+    "best_epoch": 36,
+    "train_acc": 0.9644444444444444,
+    "val_acc": 0.9366666666666666
+   }
+  ]
+ }
+}

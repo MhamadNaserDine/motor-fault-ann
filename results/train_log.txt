@@ -1,0 +1,70 @@
+
+=== DETECTION | train 360  test 120  validation 120  | inputs 19  classes 2
+  Perceptron    val acc  91.67 %  F1  91.53 %  time   0.60s  epochs  300  A=196
+  ADALINE       val acc  88.33 %  F1  87.72 %  time   0.50s  epochs  300  A=131
+  MLP-BP        val acc  91.67 %  F1  91.38 %  time   2.69s  epochs  300  A=164
+  MLP-momentum  val acc  92.50 %  F1  92.17 %  time   3.12s  epochs  300  A=34
+  MLP-adaptive  val acc  92.50 %  F1  92.17 %  time   3.30s  epochs  300  A=26
+  MLP-LM        val acc  91.67 %  F1  91.53 %  time   0.38s  epochs  100  A=7
+  RBF           val acc  92.50 %  F1  92.56 %  time   0.00s  epochs    1  A=1
+  sklearn-MLP   val acc  95.83 %  F1  95.73 %
+
+=== DIAGNOSIS | train 900  test 300  validation 300  | inputs 19  classes 5
+  Perceptron    val acc  93.67 %  F1  93.68 %  time   1.87s  epochs  300  A=75
+  ADALINE       val acc  91.33 %  F1  91.38 %  time   1.28s  epochs  300  A=69
+  MLP-BP        val acc  95.33 %  F1  95.35 %  time   7.89s  epochs  300  A=149
+  MLP-momentum  val acc  94.33 %  F1  94.38 %  time   7.97s  epochs  300  A=37
+  MLP-adaptive  val acc  94.33 %  F1  94.35 %  time   8.11s  epochs  300  A=52
+  MLP-LM        val acc  95.33 %  F1  95.37 %  time   2.84s  epochs  100  A=7
+  RBF           val acc  75.67 %  F1  75.70 %  time   0.01s  epochs    1  A=1
+  sklearn-MLP   val acc  94.33 %  F1  94.34 %
+
+# Results summary
+
+Dataset: 1500 simulated motors (300 per class), loads 30–110 % of rated,
+measurement noise ~0.5–1.5 % of RMS, ±5 % parameter spread. 19 MCSA features.
+Split: training 60 % / test 20 % (early stopping) / validation 20 % (final, unbiased score).
+
+## Fault detection (healthy vs faulty) – validation set
+| Model | Acc % | Prec % | Rec % | F1 % | Time (s) | Epochs | Point A |
+|---|---|---|---|---|---|---|---|
+| Perceptron | 91.7 | 93.1 | 90.0 | 91.5 | 0.60 | 300 | 196 |
+| ADALINE (LMS) | 88.3 | 92.6 | 83.3 | 87.7 | 0.50 | 300 | 131 |
+| MLP-BP | 91.7 | 94.6 | 88.3 | 91.4 | 2.69 | 300 | 164 |
+| MLP-BP + momentum | 92.5 | 96.4 | 88.3 | 92.2 | 3.12 | 300 | 34 |
+| MLP-BP + momentum + adaptive η | 92.5 | 96.4 | 88.3 | 92.2 | 3.30 | 300 | 26 |
+| MLP-Levenberg-Marquardt | 91.7 | 93.1 | 90.0 | 91.5 | 0.38 | 100 | 7 |
+| RBF (fixed centres + pseudo-inverse) | 92.5 | 91.8 | 93.3 | 92.6 | 0.00 | 1 | 1 |
+| scikit-learn MLP (check) | 95.8 | 98.2 | 93.3 | 95.7 | 0.66 | 1334 | — |
+
+## Fault diagnosis (5 classes) – validation set
+| Model | Acc % | Prec % | Rec % | F1 % | Time (s) | Epochs | Point A |
+|---|---|---|---|---|---|---|---|
+| Perceptron | 93.7 | 93.8 | 93.7 | 93.7 | 1.87 | 300 | 75 |
+| ADALINE (LMS) | 91.3 | 91.6 | 91.3 | 91.4 | 1.28 | 300 | 69 |
+| MLP-BP | 95.3 | 95.5 | 95.3 | 95.3 | 7.89 | 300 | 149 |
+| MLP-BP + momentum | 94.3 | 94.6 | 94.3 | 94.4 | 7.97 | 300 | 37 |
+| MLP-BP + momentum + adaptive η | 94.3 | 94.5 | 94.3 | 94.4 | 8.11 | 300 | 52 |
+| MLP-Levenberg-Marquardt | 95.3 | 95.5 | 95.3 | 95.4 | 2.84 | 100 | 7 |
+| RBF (fixed centres + pseudo-inverse) | 75.7 | 78.4 | 75.7 | 75.7 | 0.01 | 1 | 1 |
+| scikit-learn MLP (check) | 94.3 | 94.5 | 94.3 | 94.3 | 1.52 | 1119 | — |
+
+## Learning-rate experiment (classic BP, 150 epochs)
+- eta_0.001: final training cost 0.0803, validation accuracy 94.3 %
+- eta_0.05: final training cost 0.0248, validation accuracy 94.7 %
+- eta_5.0: final training cost 0.1189, validation accuracy 88.3 %
+
+## Non-linear separability (2 features: I2/I1 and BRB sideband; healthy vs BRB-or-ITSC), validation accuracy
+- Perceptron: 86.7 %
+- ADALINE (LMS): 85.0 %
+- MLP-BP + momentum (10 hidden): 92.5 %
+
+## RBF: test error vs number of centres M
+- M = 5: training error 38.4 %, test error 33.7 %
+- M = 10: training error 26.0 %, test error 26.7 %
+- M = 20: training error 16.2 %, test error 18.7 %
+- M = 40: training error 24.8 %, test error 25.3 %
+- M = 80: training error 17.3 %, test error 21.7 %
+- M = 120: training error 17.9 %, test error 21.7 %
+- M = 200: training error 17.2 %, test error 25.0 %
+- M = 300: training error 26.0 %, test error 43.3 %
